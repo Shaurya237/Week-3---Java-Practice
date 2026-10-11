@@ -1,20 +1,25 @@
-# Week 3 OOP Practice — Java Solutions
+# Week 3 OOP Homework — Category B
 
-Each program is in a separate `.java` file. The filename matches the public demo class.
+This folder contains Java solutions for M1–M5.
 
 ## Programs
-1. `PlacementRecordDemo.java` — class, constructor, array of objects, instance method
-2. `MessWalletDemo.java` — encapsulation, private balance, validation, getter
-3. `CourseDemo.java` — overloaded constructors and `this(...)` chaining
-4. `IdCardReferenceDemo.java` — reference copying and `==` identity comparison
-5. `StudentStaticDemo.java` — static fields, static method, constructor count
 
-## Run a program
-From this folder, compile and run a file, for example:
+1. **M1_LibraryInventory/BookInventoryDemo.java** — class, constructor, array of objects, instance method.
+2. **M2_PayrollAccount/PayrollAccountDemo.java** — encapsulation, private fields, validation, read-only salary access.
+3. **M3_EmployeeConstructors/EmployeeConstructorDemo.java** — overloaded constructors and `this(...)` chaining.
+4. **M4_HallTicketReferences/HallTicketReferenceDemo.java** — object references, aliasing, and `==`.
+5. **M5_EmployeeStatic/EmployeeStaticDemo.java** — static fields, static method, and object count.
+
+## Compile and run
+
+Run commands from each program's directory, for example:
 
 ```bash
-javac PlacementRecordDemo.java
-java PlacementRecordDemo
+cd M1_LibraryInventory
+javac BookInventoryDemo.java
+java BookInventoryDemo
 ```
 
-Repeat with the desired filename and public class name for each problem.
+Repeat with the corresponding `.java` file in each directory.
+
+**Note:** M3 and M5 both define a class named `Employee` because they are separate exercises. Keep them in their separate directories and compile/run each exercise independently.
